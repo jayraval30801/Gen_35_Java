@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class GotoStatementsinJava {
 
-	static void table()
+	void table()
 	{
 		Scanner sc = new Scanner(System.in);
 		int a, i;
@@ -14,16 +14,18 @@ public class GotoStatementsinJava {
 			System.out.println("" + a + "" + i + " " + a * i);
 		}
 	}
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		table();
+		GotoStatementsinJava obj = new GotoStatementsinJava();
+		obj.table();
 		System.out.println("Do you want to continue");
 		String dec = sc.next();
 		int p = dec.compareTo("yes");
 		int q = dec.compareTo("YES");
 		if(p==0 || q==0)
 		{
-			table();
+			obj.table();
 		}
 		else
 		{
@@ -38,6 +40,9 @@ public class GotoStatementsinJava {
  * iteration Goto lable :
  * 
  * lable:
+ * 
+ * Number : Palindrome Check using Method (With arg with return )
+ * 
  * 
  * 
  */
