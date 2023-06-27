@@ -2,10 +2,10 @@ package Gen_35;
 
 import java.util.Scanner;
 
-public class ArrayExmples {
-	
-		public static void main(String[] args) {
-			
+public class ArrayExmples 
+{	
+		public static void main(String[] args) 
+		{			
 			Scanner sc = new Scanner(System.in);
 			int a[] = new int[] {1,2,3,4,5,6,7,8,9};
 			int i,j,sum;
@@ -44,6 +44,10 @@ public class ArrayExmples {
  *3 Occurence : 2
  *...........
  *	
+ *clock wise rotation by one 
+ *a[5] = {1,2,3,4,5};
+ *output : a[5] : {5,1,2,3,4};
+ *
  *
  *
  * 
