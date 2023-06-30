@@ -19,6 +19,5 @@ public class ClockWiseRotationProg {
 			{
 				System.out.println("\t"+a[i]);
 			}
-		
 		}
 }
