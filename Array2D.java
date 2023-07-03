@@ -69,8 +69,15 @@ public class Array2D {
  * 4 5        7 8 		 ....              ...	
  * 
  * 1) Enter Row and Columns from user and Print Sum of Rows and Sum of Columns
- * 2) Enter Row and Columns from User and print Matrix is Identity
+ * 2) Enter Row and Columns from User and print Matrix is Identity 
+ * 
+ * 1 0 0 
+ * 0 1 0 
+ * 0 0 1 
  * 3) Enter Row and Columns from user and Print Matrix is Transpose 
+ * 1 2 3
+ * 2 4 3 
+ * 3 3 7 
  * 4) Enter Row and Columns from user and print prime Elements from array
  * 5) Enter Row and Column from user and print Sum of Diagonal Elements 
  * 
