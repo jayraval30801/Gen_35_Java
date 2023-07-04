@@ -7,7 +7,7 @@ public class TransposeMatrixJava
 	
 	public static void main(String[] args) 
 	{
-		int temp = 0;
+		int rsum = 0,csum=0;
 		Scanner sc = new Scanner(System.in);
 		int a[][] = new int[3][3];
 		int i,j;
@@ -19,28 +19,34 @@ public class TransposeMatrixJava
 				a[i][j]  = sc.nextInt();
 			}
 		}
-		
 		for(i=0;i<3;i++)
 		{
 			for(j=0;j<3;j++)
 			{
-				if(a[i][j] != a[j][i])
-				{
-					temp  = 1; 
-					break;
-				}
+				System.out.print(" "+a[i][j]);
 			}
+			System.out.println();
+		}
+		for(i=0;i<3;i++)
+		{
+			rsum = 0;
+			for(j=0;j<3;j++)
+			{	
+					rsum = rsum + a[i][j];
+			}
+			System.out.println("Row"+i+"Sum is "+rsum);
+		}
+		for(i=0;i<3;i++)
+		{
+			csum = 0;
+			for(j=0;j<3;j++)
+			{	
+					csum = csum + a[j][i];
+			}
+			System.out.println("Column "+i+"Sum is "+csum);
 		}
 		
-		if(temp==1)
-		{
-			System.out.println("Not a Transpose Matrix");
-		}
-		else
-		{
-			System.out.println("It is a Transpose Matrix");
-		}
-			
+	
 	}
 }
 /*
