@@ -39,9 +39,9 @@ public class TransposeMatrixJava
 		for(i=0;i<3;i++)
 		{
 			csum = 0;
-			for(j=0;j<3;j++)
+			for(j=0;j<3;j++) // j=0
 			{	
-					csum = csum + a[j][i];
+					csum = csum + a[j][i]; // i=0 csum = a[0][0] a[1][0] , a[2][0]
 			}
 			System.out.println("Column "+i+"Sum is "+csum);
 		}
